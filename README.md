@@ -24,13 +24,13 @@ Drone Motion Update
 
 ## ✋ Supported Gestures & Commands
 ```text
-| Gesture                     | Meaning       | Drone Action         |
-| --------------------------- | ------------- | -------------------- |
+| Gesture                       | Meaning       | Drone Action         |
+|----------------------------------------------------------------------|
 | ✊ Closed fist (Rock)        | LAND          | Drone lands          |
 | ✋ Open palm (Paper)         | HOVER         | Drone holds position |
 | ✌ Index + Middle (Scissors) | MOVE_FORWARD  | Drone moves forward  |
 | ☝ Index finger              | MOVE_BACKWARD | Drone moves backward |
-| ☝✌🖐 Three fingers          | MOVE_LEFT     | Drone moves left     |
+| ☝✌🖐 Three fingers        | MOVE_LEFT     | Drone moves left     |
 ```
 To ensure reliability, gestures must remain stable across multiple frames before being applied.
 
