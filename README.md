@@ -35,6 +35,9 @@ Drone Motion Update
 To ensure reliability, gestures must remain stable across multiple frames before being applied.
 
 ## ▶️ How to Run the Project
+
+Note: Use python 3.9 - 3.12 as the other versions does not suppport mediapipe as of now.
+
 ### 1️⃣ Install Dependencies
 ```python
 pip install -r requirements.txt
